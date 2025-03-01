@@ -46,8 +46,11 @@ body {
 
 .hero {
     grid-area: hero;
-    background-color: red;
+    height: 89vh;
+    background: url('');
 }
+
+.hero h2
 
 /* ABOUT */
 
