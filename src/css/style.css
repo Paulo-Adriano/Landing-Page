@@ -214,6 +214,13 @@ body {
     opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
 /* FOOTER */
 
 .footer {
