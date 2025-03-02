@@ -90,6 +90,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: white;
+    max-width: var(--max-width-size);
 }
 
 .about .item {
@@ -116,10 +117,15 @@ body {
     width: 100%;
 }
 
-.about .item .btn.nmow-more{
+.about .item .btn-know-more {
     font-size: 1.6rem;
+    align-self: flex-start;
+    
 }
 
+.about .item .btn-know-more:hover {
+    font-weight: 700;
+}
 
 .about .image.right {
     background: url('../imagens/bridge.jpg') center center no-repeat;
