@@ -221,6 +221,13 @@ body {
     }
 }
 
+@media (max-width: 425px){
+    .projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
 /* FOOTER */
 
 .footer {
