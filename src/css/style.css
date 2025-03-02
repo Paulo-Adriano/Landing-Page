@@ -137,6 +137,17 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 200px) {
+    .about .item {
+        text-align: center;
+
+    }
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4. 1fr);
+    }
+}
+
 
 /* SERVICES */
 
